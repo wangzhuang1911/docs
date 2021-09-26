@@ -11,7 +11,7 @@ BatchSampler
 
 ``__iter__``: 迭代式返回批样本下标数组。
 
-``__len__``: 每epoch中mini-batch数。
+``__len__``: 每epoch中mini-batch数。3333
 
 参数:
     - **dataset** (Dataset) - 此参数必须是 ``paddle.io.Dataset`` 或 ``paddle.io.IterableDataset`` 的一个子类实例或实现了 ``__len__`` 的Python对象，用于生成样本下标。默认值为None。
